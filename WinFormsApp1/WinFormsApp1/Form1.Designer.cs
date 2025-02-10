@@ -176,7 +176,7 @@ partial class Form1
         // comboBox1
         // 
         comboBox1.FormattingEnabled = true;
-        comboBox1.Items.AddRange(new object[] { "Economy - 1000" });
+        comboBox1.Items.AddRange(new object[] { "Economy - 1000", "Business - 2000", "Presidential - 3000" });
         comboBox1.Location = new System.Drawing.Point(132, 199);
         comboBox1.Name = "comboBox1";
         comboBox1.Size = new System.Drawing.Size(155, 23);

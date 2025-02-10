@@ -12,9 +12,9 @@ public partial class Form1 : Form
 
         
         int spa = 500, massage = 300, breakfast = 300, days = int.Parse(textBox3.Text), dwnpay = int.Parse(textBox4.Text),
-            ecommerce = 1000;
+            ecommerce = 1000, business = 2000, presidential = 3000;
         double discount = 0.3;
-        string radio = "";
+        string radio = "", acomi = "";
         
         int totalcost = 0;
         
@@ -35,6 +35,15 @@ public partial class Form1 : Form
         if (comboBox1.SelectedItem.ToString() == "Economy - 1000")
         {
             totalcost += ecommerce;
+            acomi = "Economy - 1000";
+        } else if (comboBox1.SelectedItem.ToString() == "Business - 2000")
+        {
+            totalcost += business;
+            acomi = "Business - 2000";
+        } else if (comboBox1.SelectedItem.ToString() == "Presidential - 3000")
+        {
+            totalcost += presidential;
+            acomi = "Presidential - 3000";
         }
 
         if (radioButton1.Checked)
@@ -54,6 +63,7 @@ public partial class Form1 : Form
         listBox1.Items.Clear();
         listBox1.Items.Add("Full Name: " + textBox1.Text);
         listBox1.Items.Add("Address: " + textBox2.Text);
+        listBox1.Items.Add("Type of Accomidation: " + acomi);
         listBox1.Items.Add("Types of Customer: " + radio);
         listBox1.Items.Add("# of Days: " + textBox3.Text);
         listBox1.Items.Add("Downpayment: " + textBox4.Text);
