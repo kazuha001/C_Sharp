@@ -10,33 +10,56 @@ public partial class Form1 : Form
     private void button1_Click(object sender, EventArgs e)
     {
 
-        int spa = 500, massage = 300, breakfast = 300;
+        
+        int spa = 500, massage = 300, breakfast = 300, days = int.Parse(textBox3.Text), dwnpay = int.Parse(textBox4.Text),
+            ecommerce = 1000;
+        double discount = 0.3;
+        string radio = "";
+        
+        int totalcost = 0;
         
         if (checkBox1.Checked)
         {
-            
+            totalcost += spa;
         }
         if (checkBox2.Checked)
         {
-            
-            
+
+            totalcost += massage;
         }
         if (checkBox3.Checked)
         {
-           
+            totalcost += breakfast;
+        }
+
+        if (comboBox1.SelectedItem.ToString() == "Economy - 1000")
+        {
+            totalcost += ecommerce;
         }
 
         if (radioButton1.Checked)
         {
-            
-            
-        } else if (radioButton2.Checked)
-        {
-            
+            radio = "Regular";
         }
+        else if (radioButton2.Checked)
+        {
+            radio = "Senior";
+            totalcost -= (int)(totalcost * discount);
+        } 
+
+        totalcost *= days;
+
+        totalcost -= dwnpay;
         
-        
-        
+        listBox1.Items.Clear();
+        listBox1.Items.Add("Full Name: " + textBox1.Text);
+        listBox1.Items.Add("Address: " + textBox2.Text);
+        listBox1.Items.Add("Types of Customer: " + radio);
+        listBox1.Items.Add("# of Days: " + textBox3.Text);
+        listBox1.Items.Add("Downpayment: " + textBox4.Text);
+        listBox1.Items.Add("TotalCost: " + totalcost.ToString());
+
+
     }
 
 

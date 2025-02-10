@@ -53,7 +53,7 @@ partial class Form1
         // 
         // textBox1
         // 
-        textBox1.Location = new System.Drawing.Point(119, 44);
+        textBox1.Location = new System.Drawing.Point(132, 44);
         textBox1.Name = "textBox1";
         textBox1.Size = new System.Drawing.Size(155, 23);
         textBox1.TabIndex = 0;
@@ -63,7 +63,7 @@ partial class Form1
         // 
         label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)0));
         label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-        label1.Location = new System.Drawing.Point(24, 44);
+        label1.Location = new System.Drawing.Point(37, 44);
         label1.Name = "label1";
         label1.Size = new System.Drawing.Size(89, 23);
         label1.TabIndex = 1;
@@ -74,7 +74,7 @@ partial class Form1
         // 
         label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)0));
         label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-        label2.Location = new System.Drawing.Point(24, 95);
+        label2.Location = new System.Drawing.Point(37, 95);
         label2.Name = "label2";
         label2.Size = new System.Drawing.Size(89, 25);
         label2.TabIndex = 2;
@@ -159,7 +159,7 @@ partial class Form1
         // 
         // textBox2
         // 
-        textBox2.Location = new System.Drawing.Point(119, 95);
+        textBox2.Location = new System.Drawing.Point(132, 95);
         textBox2.Multiline = true;
         textBox2.Name = "textBox2";
         textBox2.Size = new System.Drawing.Size(155, 57);
@@ -177,7 +177,7 @@ partial class Form1
         // 
         comboBox1.FormattingEnabled = true;
         comboBox1.Items.AddRange(new object[] { "Economy - 1000" });
-        comboBox1.Location = new System.Drawing.Point(119, 199);
+        comboBox1.Location = new System.Drawing.Point(132, 199);
         comboBox1.Name = "comboBox1";
         comboBox1.Size = new System.Drawing.Size(155, 23);
         comboBox1.TabIndex = 14;
@@ -185,7 +185,7 @@ partial class Form1
         // 
         // label4
         // 
-        label4.Location = new System.Drawing.Point(34, 174);
+        label4.Location = new System.Drawing.Point(50, 174);
         label4.Name = "label4";
         label4.Size = new System.Drawing.Size(196, 22);
         label4.TabIndex = 15;
@@ -193,7 +193,7 @@ partial class Form1
         // 
         // textBox3
         // 
-        textBox3.Location = new System.Drawing.Point(119, 242);
+        textBox3.Location = new System.Drawing.Point(132, 244);
         textBox3.Name = "textBox3";
         textBox3.Size = new System.Drawing.Size(155, 23);
         textBox3.TabIndex = 16;
@@ -201,7 +201,7 @@ partial class Form1
         // 
         // textBox4
         // 
-        textBox4.Location = new System.Drawing.Point(119, 284);
+        textBox4.Location = new System.Drawing.Point(132, 284);
         textBox4.Name = "textBox4";
         textBox4.Size = new System.Drawing.Size(155, 23);
         textBox4.TabIndex = 17;
@@ -211,7 +211,7 @@ partial class Form1
         // 
         label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)0));
         label5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-        label5.Location = new System.Drawing.Point(24, 242);
+        label5.Location = new System.Drawing.Point(37, 242);
         label5.Name = "label5";
         label5.Size = new System.Drawing.Size(89, 23);
         label5.TabIndex = 18;
@@ -222,7 +222,7 @@ partial class Form1
         // 
         label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)0));
         label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-        label6.Location = new System.Drawing.Point(0, 284);
+        label6.Location = new System.Drawing.Point(13, 284);
         label6.Name = "label6";
         label6.Size = new System.Drawing.Size(113, 23);
         label6.TabIndex = 19;
